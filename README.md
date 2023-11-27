@@ -1,6 +1,6 @@
 # Sha Keyboard
 
-**IMPORTANT: THIS PROJECT IS WORK IN PROGRESS. I AM CURRENTLY VERIFYING THE PCB BEFORE PRINTING IT, BUT FEEL FREE TO LOOK AROUND!**
+**IMPORTANT: THIS PROJECT IS WORK IN PROGRESS. THE FIRST PCBs ARE CURRENTLY BEING PRINTED BY JLCPCB, BUT FEEL FREE TO LOOK AROUND!**
 
 Sha is a 50 key ortholinear keyboard, powered by either a Waveshare RP2040-Zero or RP2040-Matrix.
 
@@ -34,6 +34,7 @@ Part | Purpose | Quantity | Notes
 Main PCB  | circuit board and bottom plate | 2 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/)
 Top plate PCB | protects diodes and MCU board | 1 |
 Waveshare RP2040-Zero | Microcontroller board | 1 | Also supports Waveshare RP2040-Matrix
+1N4148 SOD-123 | Diodes for keyboard row-column matrix | 50 |
 Keyswitches |  | 50 | PCB mount (5 pin) switches recommended
 Keycaps |  | 50
 M2 6mm screws | Secure main PCB and bottom plate PCB | 8 |
