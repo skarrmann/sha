@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "sha-components")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-libraries/sha-components/sha-components.kicad_sym")(options "")(descr ""))
+)
