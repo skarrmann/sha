@@ -21,7 +21,9 @@ The Waveshare RP2040-Zero/Matrix footprint uses surface-mount solder pads. The c
 
 **Each build uses two copies of the main PCB**. This PCB acts as both the logical PCB, and when flipped the long way, it acts as a bottom plate to be attached the logical PCB.
 
-![Sha bottom plate attached ](images/sha-complete-bottom.jpg)
+![Sha bottom plate attached](images/sha-complete-bottom.jpg)
+
+![Sha bottom plate alternate shot](images/sha-bottom-plate-attached.jpg)
 
 An optional top plate PCB is available in the gerber files. This top plate covers the diodes and the solder pads of the MCU board.
 
@@ -77,7 +79,7 @@ These are the manufacturing settings I used when ordering from JLCPCB:
      * ![Sha build, tin diode solder pads](images/sha-tin-diode-pads.jpg)
 * Once the diodes are fully soldered, do the microcontroller board next. Tape the board into position, and then solder the corner pads to tack it into place. Remove the tape and solder the remaining microcontroller board pads.
      * ![Sha build, solder microcontroller board](images/sha-solder-microcontroller-board.jpg)
-* Last, solder in the switches. Note the switch PCB mounting pin holes were loose on my PCBs, but this might have been a manufacturing anomaly since I've never encountered this issue in other builds using this footprint. I worked around this by placing keycaps on the switches, then first soldering the four corner switches while applying pressure on top of the switch so it's fully inserted. The I placed all the switches in location, placed a spare PCB on top of the switches in a sandwich, flipped the board over, and soldered one leg of each switch while applying pressure to fully insert the switch. After confirming the switches were fully inserted, I soldered the other leg on each switch.
+* Last, solder in the switches. Note the switch PCB mounting pin holes were loose on my PCBs, but this might have been a manufacturing anomaly since I've never encountered this issue in other builds using this footprint. I worked around this by placing keycaps on the switches, then first soldering the four corner switches while applying pressure on top of the switch so it's fully inserted. Then I placed all the switches in their slots, pressed a spare PCB on top of the switches in a sandwich, flipped the board over, and soldered one leg of each switch while applying pressure to fully insert the switches. After confirming the switches were fully inserted, I soldered the other leg on each switch.
      * ![Sha build, solder switches](images/sha-solder-switches.jpg)
 * For attaching the plates, use a single screw and hex nut to secure the bottom plate PCB to the main PCB. For the top plate, I just put a screw and hex through this plate's holes. The screw threads rest inside the PCB mounting holes, giving it a fiction fit.
      * ![Sha build, screws nuts in top plate](images/sha-top-plate-screws-nuts.jpg)
