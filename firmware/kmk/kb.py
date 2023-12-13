@@ -7,6 +7,8 @@ class KMKKeyboard(_KMKKeyboard):
     col_pins = (board.GP8, board.GP9, board.GP10, board.GP11, board.GP12, board.GP13, board.GP14)
     row_pins = (board.GP28, board.GP4, board.GP27, board.GP5, board.GP26, board.GP6, board.GP15, board.GP7)
     diode_orientation = DiodeOrientation.COLUMNS
+    rgb_pixel_pin = board.GP16
+    rgb_num_pixels = 25
 
     coord_mapping = [
      0,  1,  2,  3,  4,  5,          8,  9, 10, 11, 12, 13,

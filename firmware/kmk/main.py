@@ -2,30 +2,35 @@ from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
+from kmk.extensions.RGB import RGB
 
 
 keyboard = KMKKeyboard()
 
-layers_ext = Layers()
-media_keys = MediaKeys()
+keyboard.modules.append(Layers())
+keyboard.extensions.append(MediaKeys())
+rgb = RGB(
+    pixel_pin=keyboard.rgb_pixel_pin,
+    num_pixels=keyboard.rgb_num_pixels,
+    val_default=1,
+    val_step=1,
+    val_limit=8
+    )
+keyboard.extensions.append(rgb)
 
-keyboard.modules = [layers_ext]
-keyboard.extensions = [media_keys]
-
-SYM = KC.MO(1)
-NAV = KC.MO(2)
-FUN = KC.MO(3)
+SYMTAB = KC.LT(1, KC.TAB, prefer_hold=True, tap_interrupted=True, tap_time=130)
+FUNSPC = KC.LT(2, KC.SPC, prefer_hold=True, tap_interrupted=True, tap_time=180)
 
 keyboard.keymap = [
-    [   # Default
+    [   # Default (Colemak)
         KC.SCLN, KC.Q,    KC.W,    KC.F,    KC.P,    KC.G,                      KC.J,    KC.L,    KC.U,    KC.Y,    KC.QUOT, KC.MINS,
         KC.LSFT, KC.A,    KC.R,    KC.S,    KC.T,    KC.D,                      KC.H,    KC.N,    KC.E,    KC.I,    KC.O,    KC.RSFT,
         KC.LCTL, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,                      KC.K,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RCTL,
-        KC.LALT, KC.LGUI, KC.NO,   KC.NO,   KC.DEL,  KC.TAB,  KC.ESC,  KC.ENT,  KC.SPC,  KC.BSPC, KC.NO,   KC.NO,   KC.RGUI, KC.RALT
+        KC.LALT, KC.LGUI, KC.NO,   KC.NO,   KC.DEL,  SYMTAB,  KC.ESC,  KC.ENT,  FUNSPC,  KC.BSPC, KC.NO,   KC.NO,   KC.RGUI, KC.RALT
     ],
     [   # Symbol
         KC.COLN, KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,                     KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.DQUO, KC.UNDS,
-        KC.HASH, KC.EXCL, KC.LPRN, KC.RPRN, KC.DLR,  KC.AMPR,                   KC.PIPE, KC.EQL,  KC.LCBR, KC.RCBR, KC.N0,   KC.GRV,
+        KC.HASH, KC.EXLM, KC.LPRN, KC.RPRN, KC.DLR,  KC.AMPR,                   KC.PIPE, KC.EQL,  KC.LCBR, KC.RCBR, KC.N0,   KC.GRV,
         KC.TILD, KC.AT,   KC.LBRC, KC.RBRC, KC.PLUS, KC.PERC,                   KC.CIRC, KC.ASTR, KC.LABK, KC.RABK, KC.QUES, KC.BSLS,
         KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.SPC,  KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS
     ],
@@ -36,6 +41,7 @@ keyboard.keymap = [
         KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TAB,  KC.TRNS, KC.TRNS, KC.SPC,  KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS
     ]
 ]
+
 
 if __name__ == '__main__':
     keyboard.go()

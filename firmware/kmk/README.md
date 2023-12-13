@@ -2,7 +2,7 @@
 
 ## Installation instructions
 
-Apply these steps on each RP2040-Zero:
+Apply these steps for the RP2040-Zero or RP-2040 Matrix:
 
 1. Install CircuitPython:
     * https://circuitpython.org/board/waveshare_rp2040_zero/
@@ -13,6 +13,8 @@ Apply these steps on each RP2040-Zero:
     * [`main.py`](main.py)
 
 Now customize the layout and features in [`main.py`](main.py) file, and save the updates on your board.
+
+The default layout uses KMK's RGB extension, and assigns the LEDs for the RP2040-Matrix. If using the RGB feature, you will also need to install the NeoPixel library from Adafruit. Refer to the [KMK RGB documentation](http://kmkfw.io/docs/rgb#circuitpython).
 
 ## Default keymap
 
