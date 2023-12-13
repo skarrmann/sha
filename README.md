@@ -1,6 +1,6 @@
 # Sha Keyboard
 
-**IMPORTANT: THIS PROJECT IS WORK IN PROGRESS. THE FIRST PCBs ARE CURRENTLY BEING PRINTED BY JLCPCB, BUT FEEL FREE TO LOOK AROUND!**
+![Sha complete build top photo](images/sha-complete-top.jpg)
 
 Sha is a 50 key ortholinear keyboard, powered by either a Waveshare RP2040-Zero or RP2040-Matrix.
 
@@ -13,19 +13,24 @@ Sha is a 50 key ortholinear keyboard, powered by either a Waveshare RP2040-Zero 
 * [`images`](images): Images for project documentation
 * [`firmware`](firmware): Firmware files
 
-## PCB
+## PCBs
 
 The PCB is designed for MX switches.
 
 The Waveshare RP2040-Zero/Matrix footprint uses surface-mount solder pads. The castellated pads of the MCU board are soldered directly onto the PCB.
 
-Each build uses two copies of the main PCB. This PCB acts as both the logical PCB, and when flipped the long way, it acts as a bottom plate to be attached the logical PCB.
+**Each build uses two copies of the main PCB**. This PCB acts as both the logical PCB, and when flipped the long way, it acts as a bottom plate to be attached the logical PCB.
+
+![Sha bottom plate attached ](images/sha-complete-bottom.jpg)
 
 An optional top plate PCB is available in the gerber files. This top plate covers the diodes and the solder pads of the MCU board.
 
+![Sha main and top plate PCBs](images/sha-pcbs-top.jpg)
+
 ## Keyboard firmware
 
-*TBD*
+* KMK
+    * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
 
 ## Bill of materials
 
@@ -37,9 +42,11 @@ Waveshare RP2040-Zero | Microcontroller board | 1 | Also supports Waveshare RP20
 1N4148 SOD-123 | Diodes for keyboard row-column matrix | 50 |
 Keyswitches |  | 50 | PCB mount (5 pin) switches recommended
 Keycaps |  | 50
-M2 6mm screws | Secure main PCB and bottom plate PCB | 8 |
-M2 nuts | 8 to secure main PCB and bottom plate PCB, 4 as spacers for top plate | 12 |
+M2 6mm screws | 4 to secure main PCB and bottom plate PCB, 4 for top plate | 8 |
+M2 nuts | 4 to secure main PCB and bottom plate PCB, 4 as spacers for top plate | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 8 | 
+
+Note the 4 M2 screws and 4 nuts just "friction fit" the top plate. To permanently screw in the top plate, You could use 10mm screws and 4 more nuts.
 
 ## PCB manufacturing settings
 
@@ -66,7 +73,19 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 
 ## Build tips
 
+* Solder the diodes first. Tin one side of all the diode solder pads, and then position each diode and re-heat this tinned pad to tack the diode in place. Then solder the other diode leg on each diode.
+     * ![Sha build, tin diode solder pads](images/sha-tin-diode-pads.jpg)
+* Once the diodes are fully soldered, do the microcontroller board next. Tape the board into position, and then solder the corner pads to tack it into place. Remove the tape and solder the remaining microcontroller board pads.
+     * ![Sha build, solder microcontroller board](images/sha-solder-microcontroller-board.jpg)
+* Last, solder in the switches. Note the switch PCB mounting pin holes were loose on my PCBs, but this might have been a manufacturing anomaly since I've never encountered this issue in other builds using this footprint. I worked around this by placing keycaps on the switches, then first soldering the four corner switches while applying pressure on top of the switch so it's fully inserted. The I placed all the switches in location, placed a spare PCB on top of the switches in a sandwich, flipped the board over, and soldered one leg of each switch while applying pressure to fully insert the switch. After confirming the switches were fully inserted, I soldered the other leg on each switch.
+     * ![Sha build, solder switches](images/sha-solder-switches.jpg)
+* For attaching the plates, use a single screw and hex nut to secure the bottom plate PCB to the main PCB. For the top plate, I just put a screw and hex through this plate's holes. The screw threads rest inside the PCB mounting holes, giving it a fiction fit.
+     * ![Sha build, screws nuts in top plate](images/sha-top-plate-screws-nuts.jpg)
+     * ![Sha build, top plate friction fit](images/sha-rp2040-matrix-closeup.jpg)
+
 ## KiCad project notes
+
+The top plate was generated with the [Horizon Board Producer KiCad plugin](https://github.com/skarrmann/horizon#kicad-project-notes).
 
 ## Revision history
 
