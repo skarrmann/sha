@@ -34,7 +34,7 @@ An optional top plate PCB is available in the gerber files. This top plate cover
 * KMK
     * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
 * QMK
-    * Coming soon!
+    * Coming soon! [Submitted a PR](https://github.com/qmk/qmk_firmware/pull/22664), currently under review.
 
 ## Bill of materials
 
