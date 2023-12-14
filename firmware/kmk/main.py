@@ -2,24 +2,15 @@ from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
-from kmk.extensions.RGB import RGB
 
 
 keyboard = KMKKeyboard()
 
-keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
-rgb = RGB(
-    pixel_pin=keyboard.rgb_pixel_pin,
-    num_pixels=keyboard.rgb_num_pixels,
-    val_default=1,
-    val_step=1,
-    val_limit=8
-    )
-keyboard.extensions.append(rgb)
+keyboard.modules.append(Layers())
 
 SYMTAB = KC.LT(1, KC.TAB, prefer_hold=True, tap_interrupted=True, tap_time=130)
-FUNSPC = KC.LT(2, KC.SPC, prefer_hold=True, tap_interrupted=True, tap_time=180)
+FUNSPC = KC.LT(2, KC.SPC, prefer_hold=True, tap_interrupted=True, tap_time=200)
 
 keyboard.keymap = [
     [   # Default (Colemak)
