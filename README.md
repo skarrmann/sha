@@ -2,7 +2,7 @@
 
 ![Sha complete build top photo](images/sha-complete-top.jpg)
 
-Sha is a 50 key ortholinear keyboard, powered by either a Waveshare RP2040-Zero or RP2040-Matrix.
+Sha is a 50 key ortholinear keyboard, powered by either a [Waveshare RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) or [Waveshare RP2040-Matrix](https://www.waveshare.com/product/rp2040-matrix.htm).
 
 ## Project structure
 
@@ -33,6 +33,8 @@ An optional top plate PCB is available in the gerber files. This top plate cover
 
 * KMK
     * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
+* QMK
+    * Coming soon!
 
 ## Bill of materials
 
@@ -48,7 +50,7 @@ M2 6mm screws | 4 to secure main PCB and bottom plate PCB, 4 for top plate | 8 |
 M2 nuts | 4 to secure main PCB and bottom plate PCB, 4 as spacers for top plate | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 8 | 
 
-Note the 4 M2 6mm screws and 4 M2 nuts just "friction fit" the top plate. To fully screw in the top plate, You could use 4 M2 10mm+ screws and 4 more M2 nuts. I meant to do this, but acc
+Note the 4 M2 6mm screws and 4 M2 nuts just "friction fit" the top plate. To fully screw in the top plate, You could use 4 M2 8mm+ screws and 4 more M2 nuts. I meant to do this, but acc
 
 ## PCB manufacturing settings
 
