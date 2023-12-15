@@ -50,7 +50,7 @@ M2 6mm screws | 4 to secure main PCB and bottom plate PCB, 4 for top plate | 8 |
 M2 nuts | 4 to secure main PCB and bottom plate PCB, 4 as spacers for top plate | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 8 | 
 
-Note the 4 M2 6mm screws and 4 M2 nuts just "friction fit" the top plate. To fully screw in the top plate, You could use 4 M2 8mm+ screws and 4 more M2 nuts. I meant to do this, but acc
+Note the 4 M2 6mm screws and 4 M2 nuts just "friction fit" the top plate. To fully screw in the top plate, You could use 4 M2 8mm+ screws and 4 more M2 nuts. I meant to do this, but accidentally ordered the wrong size screws...!
 
 ## PCB manufacturing settings
 
