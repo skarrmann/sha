@@ -5,7 +5,7 @@
 	(uuid "ef1b4b98-541b-4673-a04f-2043250fc40a")
 	(paper "A4")
 	(title_block
-		(title "Sha MX")
+		(title "Sha Choc")
 		(date "2024-10-09")
 		(rev "1.1")
 		(company "skarrmann")
@@ -3984,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 91.44 64.77 0)
 			(effects
 				(font
@@ -4122,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 210.82 50.8 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -4328,7 +4328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 210.82 78.74 0)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 264.16 78.74 0)
 			(effects
 				(font
@@ -4464,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -4669,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 55.88 50.8 0)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -5013,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 20.32 36.83 0)
 			(effects
 				(font
@@ -5764,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 175.26 36.83 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 246.38 50.8 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -6521,7 +6521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 264.16 36.83 0)
 			(effects
 				(font
@@ -6728,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 20.32 50.8 0)
 			(effects
 				(font
@@ -7144,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -7212,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -7411,7 +7411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -7479,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 55.88 36.83 0)
 			(effects
 				(font
@@ -7755,7 +7755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 73.66 78.74 0)
 			(effects
 				(font
@@ -7893,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 38.1 50.8 0)
 			(effects
 				(font
@@ -8303,7 +8303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 210.82 64.77 0)
 			(effects
 				(font
@@ -8371,7 +8371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -8439,7 +8439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 264.16 64.77 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -8575,7 +8575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 91.44 36.83 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -8781,7 +8781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -9055,7 +9055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 20.32 64.77 0)
 			(effects
 				(font
@@ -9123,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 20.32 78.74 0)
 			(effects
 				(font
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 175.26 50.8 0)
 			(effects
 				(font
@@ -9394,7 +9394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 73.66 36.83 0)
 			(effects
 				(font
@@ -9601,7 +9601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -9669,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 228.6 64.77 0)
 			(effects
 				(font
@@ -10152,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -10500,7 +10500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -10774,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 246.38 78.74 0)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 91.44 50.8 0)
 			(effects
 				(font
@@ -11119,7 +11119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 175.26 64.77 0)
 			(effects
 				(font
@@ -11257,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sha-footprints:SW_MX_Reverse_Cutout"
+		(property "Footprint" "sha-footprints:SW_Choc_Reverse_Cutout"
 			(at 109.22 50.8 0)
 			(effects
 				(font

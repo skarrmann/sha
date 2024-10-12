@@ -15,7 +15,7 @@ Sha is a 50 key ortholinear keyboard, powered by either a [Waveshare RP2040-Zero
 
 ## PCBs
 
-The PCB is designed for MX switches.
+Two separate PCB designs are available for MX and Choc keyswitches, with their respective footprints and key spacing (MX: 19mm x 19mm, Choc: 18mm x 17mm).
 
 The Waveshare RP2040-Zero/Matrix footprint uses surface-mount solder pads. The castellated pads of the MCU board are soldered directly onto the PCB.
 
@@ -44,8 +44,8 @@ Main PCB  | circuit board and bottom plate | 2 | Send Gerber zip files to [JLCPC
 Top plate PCB | protects diodes and MCU board | 1 |
 Waveshare RP2040-Zero | Microcontroller board | 1 | Also supports Waveshare RP2040-Matrix
 1N4148 SOD-123 | Diodes for keyboard row-column matrix | 50 |
-Keyswitches |  | 50 | PCB mount (5 pin) switches recommended
-Keycaps |  | 50
+Keyswitches |  | 50 | PCB mount (5 pin) switches recommended. For MX, any switches should work. For Choc, get Choc V1 switches.
+Keycaps |  | 50 | For MX, any keycaps should work. For Choc, get those which fit Choc V1 18mm x 17mm
 M2 6mm screws | 4 to secure main PCB and bottom plate PCB, 4 for top plate | 8 |
 M2 nuts | 4 to secure main PCB and bottom plate PCB, 4 as spacers for top plate | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 8 | 
@@ -94,4 +94,7 @@ The top plate was generated with the [Horizon Board Producer KiCad plugin](https
 ## Revision history
 
 * **Sha 1.0** (2023-11-26)
-     * Initial PCB design
+     * Initial MX switch PCB design
+* **Sha 1.1** (2024-10-09)
+     * Create Choc switch PCB design
+     * Update logos
