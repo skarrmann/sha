@@ -24199,17 +24199,6 @@
 		(layer "F.Adhes")
 		(uuid "5a705d3a-4c46-42ad-bd05-7c7d0ef42bf6")
 	)
-	(gr_arc
-		(start 131.25 -15.85)
-		(mid 131.835786 -17.264214)
-		(end 133.25 -17.85)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.Adhes")
-		(uuid "773e4fbc-66eb-4714-93ca-d6b91a8ef4e6")
-	)
 	(gr_line
 		(start 164.5 55.5)
 		(end 156 55.5)
